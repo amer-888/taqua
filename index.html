@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+<div id="main">
+    <div class="input-group">
+    <h1>taqwa</h1>
+    </div>
+    <br><br><br>
+
+    <form action="./Home/Home.html" class="form">
+    <div class="input-group">
+
+        <input required type="text" name="text" autocomplete="off" class="input1" minlength="3" >
+        <label class="user-label">Email</label>
+
+    </div>
+
+    <div class="input-group">
+        <input required type="password" name="text" autocomplete="off" class="input1" minlength="4">
+        <label class="user-label">password</label>
+    </div>
+
+    <div class="input-group">
+        <input list="Age" placeholder="   Age" style="border-radius: 30px; border-color: #e8e8e8;" required>
+        <select name="Gender" style="border-radius: 30px; " >
+            <option >Male</option>
+            <option>Female</option>
+        </select>
+
+        <datalist id="Age" >
+            <option value="12">
+            <option value="13">
+            <option value="14">
+            <option value="15">
+            <option value="16">
+            <option value="17">
+            <option value="18">
+            <option value="19">
+            <option value="20">
+            <option value="21">
+            <option value="22">
+            <option value="23">
+            <option value="24">
+            <option value="25">
+            <option value="26">
+            <option value="27">
+            <option value="28">
+            <option value="29">
+            <option value="30">
+        </datalist>
+    </div>
+
+    <div class="input-group">
+        <button type="submit" value="login">login</button>
+    </div>
+    </form>
+</div>
+</body>
+</html>
