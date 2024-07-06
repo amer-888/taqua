@@ -1,0 +1,31 @@
+*{
+    background-color: #212121;
+    color: #e8e8e8;
+    margin: 1px;
+    padding: 1px;
+}
+
+table{
+    border-color: #1a73e8;
+    border-radius: 10px;
+    border-style: double;
+    margin: 4px;
+}
+
+iframe{
+    border: 5px solid #1a73e8;
+    color: #e8e8e8;
+}
+
+button{
+    border-radius: 30px;
+}
+
+#submit{
+    border-radius: 30px;
+    border-color: #1a73e8;
+    width: 90px;
+    height: 32px;
+    position: absolute;
+    right: 2rem;
+}
